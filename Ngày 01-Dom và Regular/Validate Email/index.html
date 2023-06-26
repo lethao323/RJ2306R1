@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xác thực email</title>
+</head>
+<body>
+    <script>
+        let regex= /^[A-Za-z0-9]+[A-Za-z0-9]*@[A-Za-z0-9]+(\.[A-Za-z0-9]+)$/
+        function validate(str){
+            if(regex.test(str)){
+                return true;
+            }
+            return false;
+        }
+         let email1= "a@gmail.com";
+         let email2= "ab@yahoo.com";
+         let email3= "@gmail.com"
+         let email4 = "ab@gmail."
+         console.log(validate(email1));
+         console.log(validate(email2));
+         console.log(validate(email3));
+         console.log(validate(email4));
+    </script>
+</body>
+</html>

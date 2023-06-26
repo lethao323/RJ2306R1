@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xác thực tài khoản</title>
+</head>
+<body>
+    <script>
+        let regex=/^[_a-z0-9]{6,}$/
+        function validate(str){
+            if(regex.test(str)){
+                return true;
+            }
+            return false;
+        }
+         let account1= "123abc_";
+         let account2= "_abc123";
+         let account3= "______"
+         let account4 = ".@"
+         let account5 = "12345"
+         let account6 ="1234_"
+         console.log(validate(account1));
+         console.log(validate(account2));
+         console.log(validate(account3));
+         console.log(validate(account4));
+         console.log(validate(account5));
+         console.log(validate(account6));
+    </script>
+</body>
+</html>
