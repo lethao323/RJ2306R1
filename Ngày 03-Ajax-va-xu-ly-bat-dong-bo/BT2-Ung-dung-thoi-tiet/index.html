@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Bài tập] Xây dựng ứng dụng thông tin thời tiết</title>
+    <script src="./js/axios.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script src="./js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">Weather</h1>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <aside class="col-3">
+                    <div class="hstack justify-content-between">
+                        <input type="text" name="" id="city-name" class="flex-fill me-1">
+                        <button class="btn btn-primary" id="find-btn">Find City</button>
+                    </div>
+                    <div class="list-group mt-2" id="city-list">
+                    </div>
+                </aside>
+                <div class="col-9">
+                    <div class="row align-items-center" id="current-weather">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js">
+
+    </script>
+</body>
+
+</html>
