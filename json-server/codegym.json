@@ -1,0 +1,115 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Lorem ipsum dolor sit amet",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Lorem ipsum dolor sit amet",
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "title": "Lorem ipsum dolor sit ametl",
+      "user_id": 2
+    },
+    {
+      "id": 4,
+      "title": "Lorem ipsum dolor sit amet",
+      "user_id": 3
+    },
+    {
+      "title": "sssdsda",
+      "id": 5,
+      "user_id": "8"
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "name": "Jennietta"
+    },
+    {
+      "id": 3,
+      "name": "Harry"
+    },
+    {
+      "id": 4,
+      "name": "Beck"
+    },
+    {
+      "id": 5,
+      "name": "Ben"
+    },
+    {
+      "id": "6",
+      "name": "dddds"
+    },
+    {
+      "id": "7",
+      "name": "uuuuu"
+    },
+    {
+      "id": "8",
+      "name": "ffffff"
+    },
+    {
+      "id": "9",
+      "name": "lll"
+    }
+  ],
+  "todos": [
+    {
+      "id": 5,
+      "title": "aaaaaaaa"
+    },
+    {
+      "id": 6,
+      "title": "bbbbbbb"
+    },
+    {
+      "id": 7,
+      "title": "ccccc"
+    }
+  ],
+  "books": [
+    {
+      "id": 2,
+      "title": "book number two",
+      "quantity": 100
+    },
+    {
+      "id": 3,
+      "title": "book number three",
+      "quantity": 120
+    },
+    {
+      "id": 4,
+      "title": "aaaaa",
+      "quantity": "12332"
+    },
+    {
+      "id": 5,
+      "title": "fdsfsd",
+      "quantity": "22"
+    }
+  ],
+  "contacts": [
+    {
+      "id": 2,
+      "name": "Richardzzzz",
+      "image": "https://antimatter.vn/wp-content/uploads/2023/01/hinh-anh-avatar-dep-cute-ngau-601x600.jpg",
+      "email": "richard@gmail.com",
+      "phone": "0912123123444"
+    },
+    {
+      "id": 3,
+      "name": "Beck",
+      "image": "https://freenice.net/wp-content/uploads/2021/08/hinh-anh-avatar-dep.jpg",
+      "email": "beck@gmail.com",
+      "phone": "0912123121"
+    }
+  ]
+}
